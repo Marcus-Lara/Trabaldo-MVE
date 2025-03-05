@@ -34,7 +34,7 @@ Aluno ler_aluno(){
 }
 //Função MENU
 int menu(){
-    printf("\n\tMENU:\t\n1-Cadastrar aluno\t\n2-Cadastrar treino\t\n3-Remover aluno\t\n4-Remover treino\t\n5-Consultar alunos\t\n6-Consultar treinos\t\n7-Sair");
+    printf("\n\tMENU:\t\n1-Aluno\t\n2-Treino\t\n3-Remover aluno\t\n4-Remover treino\t\n5-Consultar alunos\t\n6-Consultar treinos\t\n7-Sair");
     printf("\nDigite uma das opcoes acima:");
     scanf("%d", &opcao);
     return opcao;
